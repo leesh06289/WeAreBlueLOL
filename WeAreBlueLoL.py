@@ -260,5 +260,5 @@ async def on_message(message): # on_message() event : when the bot has recieved 
             await message.channel.send("Error : Non existing Summoner ", embed=embed)
 
 
-
-client.run("NzgzNTc2Mzk1MTc0NjQxNjc0.X8cwYg.4TOAiIme-VcH5gBWB52h1wF2bKg")
+access_token = os.environ["BOT_TOKEN"]
+client.run(access_token)
