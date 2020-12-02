@@ -1,5 +1,3 @@
 discord.py
 asyncio
 bs4
-re
-warnings
